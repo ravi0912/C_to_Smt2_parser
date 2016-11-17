@@ -3,10 +3,14 @@
 #include <stdio.h>
 
 int main(){
-	int x,y,b;
-	x = 2;
-	y = 3;
-	b = x + y;
+	int n , p;
+	int m;
+	n=2;
+	n=3;
+	int d;
+	d = n+m;
+	bool b;
+	b = (x + y) <= (m + n - (s - t));
 	
 	return 0;
 }

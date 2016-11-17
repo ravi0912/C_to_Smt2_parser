@@ -3,10 +3,8 @@
 #include <stdio.h>
 
 int main(){
-	int x,y,b;
-	x = 2;
-	y = 3;
-	b = x + y;
+	int x;
+	x = 2 * 3 + (6 * (3 - 2) + 3);
 	
 	return 0;
 }

@@ -3,10 +3,9 @@
 #include <stdio.h>
 
 int main(){
-	int x,y,b;
-	x = 2;
-	y = 3;
-	b = x + y;
+	int x,y,z;
+	z = 2;
+	x = 2 * z + (z - z) * z;
 	
 	return 0;
 }

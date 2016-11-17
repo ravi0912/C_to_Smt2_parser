@@ -3,10 +3,14 @@
 #include <stdio.h>
 
 int main(){
-	int x,y,b;
-	x = 2;
-	y = 3;
-	b = x + y;
-	
+	int x;
+	int y;
+	x = 2 + 3;
+	y = 3 + 2 - 2 + 2;
+	bool b;
+	b = x == y;
+	bool c;
+	c = b;
+		
 	return 0;
 }

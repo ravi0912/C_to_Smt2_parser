@@ -3,10 +3,19 @@
 #include <stdio.h>
 
 int main(){
-	int x,y,b;
-	x = 2;
-	y = 3;
-	b = x + y;
+	int n , p;
+	int m;
+	n=2;
+	n=3;
+	int d;
+	d = n+m;
+	
+	d = d + 1;
+
+	x = d + y;
+
+	x = x + 7;
+	
 	
 	return 0;
 }
