@@ -31,9 +31,10 @@ def infixToPostfix(infixexpr):
     opStack = Stack()
     postfixList = []
     tokenList = infixexpr.split()
+    print tokenList
 
     for token in tokenList:
-        if token in "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz" or token in '0123456789':
+        if token[0] in "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz" or token in '0123456789':
             postfixList.append(token)
         elif token == '(':
             opStack.push(token)
@@ -100,6 +101,7 @@ def operationPrint(string):
     op_st = op_st.replace("< =","<=")
     op_st = op_st.replace("= =","==")
     op_st = op_st.replace("> =",">=")
+    op_st = op_st.replace(" _ ","_")
     print op_st
     op_st = infixToPostfix(op_st)
     op_st = " ".join(op_st)
@@ -107,6 +109,7 @@ def operationPrint(string):
     op_st = op_st.replace("< =","<=")
     op_st = op_st.replace("= =","==")
     op_st = op_st.replace("> =",">=")
+    op_st = op_st.replace(" _ ","_")
     op_st = postfixToSmt2(op_st)
     return op_st
 

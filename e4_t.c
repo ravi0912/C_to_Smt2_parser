@@ -1,16 +1,40 @@
 //Note : after every semicolon change the line
+/*if{
+	
+}else{
+
+}*/
 
 #include <stdio.h>
 
 int main(){
-	int x;
-	int y;
-	x = 2 + 3;
-	y = 3 + 2 - 2 + 2;
-	bool b;
-	b = x == y;
-	bool c;
-	c = b;
-		
+	int n_t , p_t;
+	int m_t;
+	m_t=2;
+	n_t=3;
+	int x_t,y_t,t_t,t_t,r_t;
+	x_t = n_t + m_t;
+	y_t = n_t - m_t;
+	t_t = n_t * m_t;
+	t_t = n_t / m_t;
+
+	bool b_t;
+
+	r_t = 2 + 3;
+
+	b_t = (x_t + y_t) <= (m_t + n_t - (t_t - t_t));
+	if( b_t ){
+		if(x_t <= 1000){
+			n_t = y_t;
+		}else{
+			n_t = t_t;
+		}
+	}else{
+		n_t = t_t;
+	}
+	
 	return 0;
+
+	n_t = x_t;
+		
 }

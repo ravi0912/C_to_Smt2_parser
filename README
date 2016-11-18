@@ -1,1 +1,12 @@
 Parser to convert basic c to smt2. In progress..
+
+Example 1 : Equivalence of Complex arithmetic using constants  in another example
+
+Example 2 : Common Subexpression (CSE) Elimination
+
+Example 3 : Constant Folding and Dead Code Elimination
+			Single iterate If Else
+
+Example 4 : Code Motion with iterative loop with two depth
+
+Example 5 : Code Motion , Dead Code Elimination and checking the If else 					equivalence condition
